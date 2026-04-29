@@ -96,23 +96,33 @@ $$AA^T=I_M$$
 
 因为 $AA^T=I_M$，所以：
 
-$$\operatorname{rank}(AA^T)=\operatorname{rank}(I_M)=M$$
+$$
+\mathrm{rank}(AA^T)=\mathrm{rank}(I_M)=M
+$$
 
 另一方面，矩阵乘积的秩不超过其中任一因子的秩，因此：
 
-$$\operatorname{rank}(AA^T) \le \operatorname{rank}(A)$$
+$$
+\mathrm{rank}(AA^T) \le \mathrm{rank}(A)
+$$
 
 而 $A$ 是一个 $M \times N$ 矩阵，所以它的秩不超过列数 $N$：
 
-$$\operatorname{rank}(A) \le N$$
+$$
+\mathrm{rank}(A) \le N
+$$
 
 将这些关系合并，得到：
 
-$$M=\operatorname{rank}(I_M)=\operatorname{rank}(AA^T) \le \operatorname{rank}(A) \le N$$
+$$
+M=\mathrm{rank}(I_M)=\mathrm{rank}(AA^T) \le \mathrm{rank}(A) \le N
+$$
 
 因此：
 
-$$M \le N$$
+$$
+M \le N
+$$
 
 $$\blacksquare$$
 

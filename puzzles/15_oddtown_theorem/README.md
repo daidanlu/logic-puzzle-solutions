@@ -96,25 +96,37 @@ where $I_M$ is the $M \times M$ identity matrix.
 
 Since $AA^T=I_M$, we have:
 
-$$\operatorname{rank}(AA^T)=\operatorname{rank}(I_M)=M$$
+$$
+\mathrm{rank}(AA^T)=\mathrm{rank}(I_M)=M
+$$
 
 On the other hand, the rank of a matrix product cannot exceed the rank of either factor. Hence:
 
-$$\operatorname{rank}(AA^T) \le \operatorname{rank}(A)$$
+$$
+\mathrm{rank}(AA^T) \le \mathrm{rank}(A)
+$$
 
 Since $A$ is an $M \times N$ matrix, its rank is at most the number of columns:
 
-$$\operatorname{rank}(A) \le N$$
+$$
+\mathrm{rank}(A) \le N
+$$
 
 Combining these inequalities gives:
 
-$$M=\operatorname{rank}(I_M)=\operatorname{rank}(AA^T) \le \operatorname{rank}(A) \le N$$
+$$
+M=\mathrm{rank}(I_M)=\mathrm{rank}(AA^T) \le \mathrm{rank}(A) \le N
+$$
 
 Therefore:
 
-$$M \le N$$
+$$
+M \le N
+$$
 
-$$\blacksquare$$
+$$
+\blacksquare
+$$
 
 ---
 
