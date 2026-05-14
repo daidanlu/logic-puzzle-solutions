@@ -85,7 +85,7 @@ $$
 But the actual mutilated board satisfies:
 
 $$
-B=30<32=\#\text{white}
+B=30<32=W
 $$
 
 This contradicts the coloring invariant for domino tilings.
