@@ -38,10 +38,10 @@ $$
 \text{one domino}=1\text{ black square}+1\text{ white square}
 $$
 
-Hence, if a region can be tiled by dominoes, then the number of black squares in the region must equal the number of white squares:
+Hence, if a region can be tiled by dominoes, then the number of black squares in the region must equal the number of white squares. Let $B$ be the number of black squares and $W$ be the number of white squares:
 
 $$
-\#\text{black squares}=\#\text{white squares}
+B=W
 $$
 
 This is the coloring invariant preserved by domino tilings.
@@ -50,24 +50,24 @@ This is the coloring invariant preserved by domino tilings.
 
 ## 4. Impossibility Proof for the Mutilated Chessboard
 
-The original $8 \times 8$ chessboard has $64$ squares. Under the standard coloring, the numbers of black and white squares are equal:
+The original $8 \times 8$ chessboard has $64$ squares. Under the standard coloring, the numbers of black and white squares are equal. Again, let $B$ be the number of black squares and $W$ be the number of white squares:
 
 $$
-\#\text{black}=32
+B=32
 $$
 
 $$
-\#\text{white}=32
+W=32
 $$
 
 The two opposite corner squares have the same color. Without loss of generality, assume that the two removed corners are black. Then the remaining board has:
 
 $$
-\#\text{black}=30
+B=30
 $$
 
 $$
-\#\text{white}=32
+W=32
 $$
 
 If this mutilated board could be tiled by $31$ dominoes, then since each domino covers one black square and one white square, the $31$ dominoes would cover:
@@ -79,13 +79,13 @@ $$
 Thus the tiled region would have to satisfy:
 
 $$
-\#\text{black}=\#\text{white}=31
+B=W=31
 $$
 
 But the actual mutilated board satisfies:
 
 $$
-\#\text{black}=30<32=\#\text{white}
+B=30<32=\#\text{white}
 $$
 
 This contradicts the coloring invariant for domino tilings.
@@ -119,7 +119,7 @@ $$
 So the whole region must satisfy:
 
 $$
-\#\text{black squares}=\#\text{white squares}
+B=W
 $$
 
 If a target region violates this condition, then no domino tiling can exist.
@@ -255,7 +255,7 @@ These two tiling problems illustrate two complementary mathematical methods.
 The mutilated chessboard problem uses a coloring invariant to prove impossibility:
 
 $$
-\text{domino tiling}\Rightarrow\#\text{black}=\#\text{white}
+\text{domino tiling}\Rightarrow B=W
 $$
 
 The mutilated board violates this condition, so no tiling exists.
