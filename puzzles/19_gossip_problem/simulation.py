@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-Simulation for the classic Gossip Problem / Telephone Problem.
+Simulation for the classic Gossip Problem.
 
 Problem:
     There are N >= 4 nodes.
