@@ -136,15 +136,15 @@ We now verify these two conditions.
 
 From any vertex, we may append any of the $k$ possible symbols. Therefore, every vertex has out-degree:
 
-$$\operatorname{outdeg}(v)=k$$
+$$d^+(v)=k$$
 
 Similarly, any vertex can be reached by choosing any of the $k$ possible preceding symbols. Therefore, every vertex has in-degree:
 
-$$\operatorname{indeg}(v)=k$$
+$$d^-(v)=k$$
 
 Thus, for every vertex $v$, we have:
 
-$$\operatorname{indeg}(v)=\operatorname{outdeg}(v)=k$$
+$$d^-(v)=d^+(v)=k$$
 
 ### 6.2 Strong Connectivity
 

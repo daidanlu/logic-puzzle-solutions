@@ -138,15 +138,15 @@ $$k^{n-1}\cdot k = k^n$$
 
 任意节点都可以追加 $k$ 种可能的数字，所以每个节点的出度为：
 
-$$\operatorname{outdeg}(v)=k$$
+$$d^+(v)=k$$
 
 另一方面，任意节点也可以由 $k$ 种前置数字转移而来，所以每个节点的入度为：
 
-$$\operatorname{indeg}(v)=k$$
+$$d^-(v)=k$$
 
 因此，对任意节点 $v$，都有：
 
-$$\operatorname{indeg}(v)=\operatorname{outdeg}(v)=k$$
+$$d^-(v)=d^+(v)=k$$
 
 ### 6.2 强连通性
 
