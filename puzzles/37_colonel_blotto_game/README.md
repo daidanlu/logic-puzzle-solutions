@@ -31,7 +31,7 @@ $$x_1+x_2+x_3=6, \qquad x_i\ge 0$$
 
 If A uses strategy $X$ and B uses strategy $Y$, A's payoff can be written as:
 
-$$u(X,Y)=\sum_{i=1}^{3}\operatorname{sgn}(x_i-y_i)$$
+$$u(X,Y)=\sum_{i=1}^{3}\mathrm{sgn}(x_i-y_i)$$
 
 Here:
 
@@ -123,7 +123,7 @@ $$x_1+x_2+\cdots+x_N=S, \qquad x_i\ge 0$$
 
 In the classical symmetric homogeneous version, the one-battlefield marginal distribution in equilibrium has the form:
 
-$$x_i\sim \operatorname{Uniform}\left(0,\frac{2S}{N}\right)$$
+$$x_i\sim \mathrm{Uniform}\left(0,\frac{2S}{N}\right)$$
 
 This statement concerns the marginal distribution on a single battlefield. It does not mean that the allocations across battlefields are independent. Since total resources are fixed, allocations across battlefields must be correlated.
 
@@ -201,7 +201,7 @@ $$M=\frac{2S}{N}$$
 
 Hence the one-battlefield equilibrium marginal distribution is:
 
-$$x_i\sim \operatorname{Uniform}\left(0,\frac{2S}{N}\right)$$
+$$x_i\sim \mathrm{Uniform}\left(0,\frac{2S}{N}\right)$$
 
 This is only a marginal distribution. A full mixed strategy must also specify a joint distribution such that every sampled vector satisfies:
 
@@ -255,7 +255,7 @@ In the discrete example $S=6,N=3$, every pure allocation can be defeated by anot
 
 In the continuous symmetric version, equilibrium requires mixed strategies. The one-battlefield marginal distribution has the form:
 
-$$\operatorname{Uniform}\left(0,\frac{2S}{N}\right)$$
+$$\mathrm{Uniform}\left(0,\frac{2S}{N}\right)$$
 
 A full mixed strategy must also satisfy the total resource constraint, so it is not independent random allocation. It is a joint probability distribution on the resource simplex.
 

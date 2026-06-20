@@ -31,7 +31,7 @@ $$x_1+x_2+x_3=6, \qquad x_i\ge 0$$
 
 如果 A 使用策略 $X$，B 使用策略 $Y$，则 A 的收益可以写成：
 
-$$u(X,Y)=\sum_{i=1}^{3}\operatorname{sgn}(x_i-y_i)$$
+$$u(X,Y)=\sum_{i=1}^{3}\mathrm{sgn}(x_i-y_i)$$
 
 其中：
 
@@ -123,7 +123,7 @@ $$x_1+x_2+\cdots+x_N=S, \qquad x_i\ge 0$$
 
 经典的对称同质版本表明，均衡中的单战场边际分布具有如下形式：
 
-$$x_i\sim \operatorname{Uniform}\left(0,\frac{2S}{N}\right)$$
+$$x_i\sim \mathrm{Uniform}\left(0,\frac{2S}{N}\right)$$
 
 这里说的是单个战场的边际分布，而不是说各战场之间相互独立。由于总资源始终固定，不同战场的投入必然相关。
 
@@ -201,7 +201,7 @@ $$M=\frac{2S}{N}$$
 
 所以单个战场上的均衡边际分布应为：
 
-$$x_i\sim \operatorname{Uniform}\left(0,\frac{2S}{N}\right)$$
+$$x_i\sim \mathrm{Uniform}\left(0,\frac{2S}{N}\right)$$
 
 需要强调的是，这只是边际分布。完整的混合策略还必须给出一个联合分布，使每次抽样得到的向量都满足：
 
@@ -255,7 +255,7 @@ Colonel Blotto Game 说明了多战场资源分配中的一个基本事实：固
 
 在连续对称版本中，均衡必须依赖混合策略。单个战场上的边际分布应为：
 
-$$\operatorname{Uniform}\left(0,\frac{2S}{N}\right)$$
+$$\mathrm{Uniform}\left(0,\frac{2S}{N}\right)$$
 
 完整的混合策略还需要满足总资源守恒，因此它不是独立随机分配，而是在资源单纯形上的某个联合概率分布。
 
